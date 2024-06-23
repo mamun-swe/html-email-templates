@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: Tahoma, sans-serif;
+            background: rgb(239, 239, 240);
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 0px 10px;
+        }
+
+        .parent-container {
+            margin: auto;
+            border-radius: 10px;
+            text-align: center;
+            background: #fff !important;
+        }
+
+        .parent-container h1 {
+            color: #000;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+
+        .parent-container p {
+            line-height: 22px;
+            margin-top: 8px;
+            margin-bottom: 25px;
+            font-size: 16px !important;
+        }
+
+        .parent-container .organization-moto {
+            margin: 0;
+            color: #666666;
+            font-size: 14px !important;
+        }
+
+        @media(min-width: 620px) {
+            .parent-container {
+                width: 500px !important;
+                padding: 50px;
+            }
+        }
+
+        @media(max-width: 620px) {
+            .parent-container {
+                width: 100%;
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="parent-container">
+            <img src="./check.png" alt="Check" class="logo" />
+            <h1>Thank You!</h1>
+            <p>For verifying your email address.</p>
+            <p class="organization-moto">WeQui Inc. © All Rights Reserved</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
